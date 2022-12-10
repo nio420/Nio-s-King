@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nio's restaurent</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- header starts  -->
+    <header>
+        <div class="row">
+            <div class="col-lg-4 col-md-12">                   
+               <div class="logo-div">
+                    <a href="#">
+                        <i class="logo fas fa-utensils fa-3x"></i>
+                    </a>
+               </div>                   
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <nav class="topnav" id="myTopnav">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars fa-2x"></i>
+                            </a>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about-us">About us</a></li>
+                        <li><a href="#menu-section">Food Menu</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+        <!-- banner starts here  -->
+        <main>
+          <section id="banner-section">
+              <div class="banner-contents">
+                  <h1>Nio's King Restaurant</h1>
+                  <p>20% discounts for December</p>                 
+                    <button class="btn" id="orderButton">Order Now</button>    
+              </div>            
+          </section>
+
+          <section id="about-us">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="about-us-contents">
+                          <h3>About us</h3>
+                          <p>Nio's king, is a US based international restaurant chain that is home to one of the world’s favorite food, Pizzas and much more. The brand had started their journey in 1958 in Wichita, Kansas, when two college students Frank and Dan Carney; opened their first pizza restaurant. They laid the foundations for what would later become the largest and most pizza restaurant in the world. </p> 
+                           <p> At Nio's king,, the core belief that drives us forward is that great food builds great memories. But that is possible when delicious meals are shared amongst one and all. And to bring this thought to life,Nio's king, relentlessly tries to bring in the best food offers of the country, to make these fun sharing experiences into great memories to cherish.</p>
+                              <p>
+                                Nio's king, in Bangladesh, has been trying to make their pizzas more accessible to the customers by both creating value and opening new stores across geographical area. From the beginning of their journey in Bangladesh in 2003,Nio's king has opened 8 dine-in restaurants and 8 Pizza Hut outlets from where the valued customers can get their pizzas delivered., in Bangladesh, has been trying to make their pizzas more accessible to the customers by both creating value and opening new stores across geographical area. From the beginning of their journey in Bangladesh in 2003, Nio's king has opened 8 dine-in restaurants and 8 Pizza Hut outlets from where the valued customers can get their pizzas delivered.
+                              </p>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          <!-- food menu starts here  -->
+          <section id="menu-section">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./Restaurent pics/Double cheese burger.jpg" alt="food1">
+                            <div class="item-desc">
+                                <h3 class="item-name">double cheese burger</h3>
+                                <p>Item No: 101</p>
+                                <p>Rating: 4/5</p>
+                                <p>Price: 650 TK.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./Restaurent pics/coocked food platter.jpg" alt="food2">
+                            <div class="item-desc">
+                                <h3 class="item-name">coocked food platter</h3>
+                                <p>Item No: 102</p>
+                                <p>Rating: 4.5/5</p>
+                                <p>Price: 1150 TK.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./Restaurent pics/Mexican heavy pasta.jpg" alt="food3">
+                            <div class="item-desc">
+                                <h3 class="item-name">Mexican heavy pasta</h3>
+                                <p>Item No: 103</p>
+                                <p>Rating: 4/5</p>
+                                <p>Price: 500 TK.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./Restaurent pics/Pizza with chooping board.jpg" alt="food4">
+                            <div class="item-desc">
+                                <h3 class="item-name">Nio's special Pizza</h3>
+                                <p>Item No: 104</p>
+                                <p>Rating: 5/5</p>
+                                <p>Price: 980 TK.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact starts here  -->
+        <section id="contact-section">
+          <div class="row">
+              <div class="col-lg-8">
+                  <iframe class="map"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.945448178661!2d91.90112830144764!3d24.89984233395701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054aeedc809bb%3A0x60b5f614c843a3bf!2sTilagor%2C%20Sylhet%2C%20Bangladesh!5e0!3m2!1sen!2sfi!4v1603751552543!5m2!1sen!2sfi"
+                      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                      tabindex="0"></iframe>
+              </div>
+              <div class="col-lg-4">
+                  <div class="contact-details">
+                      <h3>Contact Details</h3> <br>
+
+                      <div>
+                          <h5>Nio's King Restaurant</h5>
+                          <address>
+                              192 kamal ataturk Avenue,
+                              Banani Gulshan,
+                              Bangladesh
+                          </address> <br>
+                      </div>
+
+                      <div>
+                          <h5>Phone : </h5>
+                          <p>+8801688751619</p><br>
+                      </div>
+                      <div>
+                          <h5>Opening hours :</h5>
+                          <p>
+                              Sun-Fri: 5PM to 11PM <br>
+                              Inc. Bank Holidays
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </main>
+
+      <!-- Footer parts -->
+      <footer>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>&copy; All right reserved by Nio's King</p>
+                <p>Developed by Naimul Islam</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="social-menus">
+                    <a href="#"><i class="icon-style fas fa-arrow-up"></i></a>
+                    <a href="#"><i class="icon-style fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="icon-style  fab fa-youtube"></i></a>
+                    <a href="#"><i class="icon-style  fab fa-twitter"></i></a>
+                    <a href="#"><i class="icon-style  fab fa-instagram"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+  </script>
+</body>
+</html>
